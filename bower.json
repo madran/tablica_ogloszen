@@ -1,0 +1,26 @@
+{
+  "name": "tablica_ogloszen",
+  "authors": [
+    "lukasz <lukasz.rozanski@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "angularjs#^1.5.0",
+    "jquery": "^2.2.1"
+  }
+}

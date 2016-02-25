@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "92a12d4f85b1292ff6f1ab3f796a7dfa",
+    "content-hash": "ae6c9aa4c1c14636b6cc06230ad4adb2",
+    "packages": [
+        {
+            "name": "madran/mpf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/madran/mpf.git",
+                "reference": "9d7ccb88e0ecb854f42bb029b71433ec18e2b356"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/madran/mpf/zipball/9d7ccb88e0ecb854f42bb029b71433ec18e2b356",
+                "reference": "9d7ccb88e0ecb854f42bb029b71433ec18e2b356",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mpf\\": "src/"
+                }
+            },
+            "license": [
+                "mit"
+            ],
+            "authors": [
+                {
+                    "name": "lukasz",
+                    "email": "lukasz.rozanski@gmail.com"
+                }
+            ],
+            "description": "my personal framework",
+            "support": {
+                "source": "https://github.com/madran/mpf_dev/tree/master",
+                "issues": "https://github.com/madran/mpf_dev/issues"
+            },
+            "time": "2016-02-19 22:15:28"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "madran/mpf": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
