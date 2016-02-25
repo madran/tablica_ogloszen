@@ -1,5 +1,5 @@
 <?php
-$config['Application']['root'] = '/home/lukasz/Projekty/php/tablica_ogloszen';
+$config['Application']['root'] = getcwd() . "/..";
 $config['Application']['default']['controller'] = 'Notice';
 $config['Application']['default']['action'] = 'index';
 $config['View']['layout']['default'] = 'layout.php';
